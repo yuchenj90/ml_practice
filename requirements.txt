@@ -1,0 +1,19 @@
+notebook
+jupyterlab
+nbdime
+
+pytest
+
+#pandas>=1.0rc
+pyarrow
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+toolz
+diskcache
+
+# visualization
+#ipywidgets
+#pydeck
