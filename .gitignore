@@ -19,6 +19,8 @@ coverage/
 *.pkl
 *.pickle
 *.pth 
+*.data
+data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
