@@ -1,7 +1,7 @@
 .PHONY: clean purge lab lab-win venv venv-win
 
 venv:
-	virtualenv -p python3.8 venv
+	virtualenv -p python3 venv
 	venv/bin/pip install --upgrade pip
 	venv/bin/pip install -r requirements.txt
 	venv/bin/pip install -e .
@@ -14,7 +14,7 @@ venv-win:
 
 
 lab:
-	env/bin/jupyter lab
+	venv/bin/jupyter lab
 
 lab-win:
 	.\venv\Scripts\python -m jupyter lab
